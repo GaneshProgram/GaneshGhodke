@@ -7,7 +7,7 @@ public class TC1 {
   public void TestCaseOne() {
 	  System.setProperty("webdriver.chrome.driver", "D:\\ProgrammingProject\\Java\\SelP\\chromedriver.exe");
       WebDriver driver =new ChromeDriver();
-      driver.get("https://www.guru99.com/");
+      driver.get("https://www.google.com/");
       try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
