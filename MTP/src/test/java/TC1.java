@@ -26,7 +26,7 @@ public class TC1 {
 	 // System.setProperty("webdriver.chrome.driver", "D:\\ProgrammingProject\\Java\\SelP\\chromedriver.exe");
      // WebDriver driver =new ChromeDriver();
       driver.get("https://www.Yahoo.com/");
-      System.out.println();
+      System.out.println("opening yahoo");
 	  
   }
 }
