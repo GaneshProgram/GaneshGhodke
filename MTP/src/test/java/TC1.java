@@ -30,4 +30,7 @@ public class TC1 {
       System.out.println("opening yahoo");
 	  
   }
+  public void Testcse3() {
+	  
+  }
 }
