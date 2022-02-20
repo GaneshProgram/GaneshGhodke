@@ -3,10 +3,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TC1 {
+	public WebDriver driver;
+	
+	public TC1() {
+	System.setProperty("webdriver.chrome.driver", "D:\\ProgrammingProject\\Java\\SelP\\chromedriver.exe");
+     driver =new ChromeDriver();
+	}
   @Test
   public void TestCaseOne() {
-	  System.setProperty("webdriver.chrome.driver", "D:\\ProgrammingProject\\Java\\SelP\\chromedriver.exe");
-      WebDriver driver =new ChromeDriver();
+	  
       driver.get("https://www.google.com/");
       try {
 			Thread.sleep(1000);
@@ -18,9 +23,10 @@ public class TC1 {
   }
   @Test
   public void testCase2() {
-	  System.setProperty("webdriver.chrome.driver", "D:\\ProgrammingProject\\Java\\SelP\\chromedriver.exe");
-      WebDriver driver =new ChromeDriver();
+	 // System.setProperty("webdriver.chrome.driver", "D:\\ProgrammingProject\\Java\\SelP\\chromedriver.exe");
+     // WebDriver driver =new ChromeDriver();
       driver.get("https://www.Yahoo.com/");
+      System.out.println();
 	  
   }
 }
