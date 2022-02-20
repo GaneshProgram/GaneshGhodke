@@ -13,7 +13,7 @@ public class TC1 {
   public void TestCaseOne() {
 	  
       driver.get("https://www.google.com/");
-      System.out.println("Google");
+      System.out.println("Google Data ");
       System.out.println();
       try {
 			Thread.sleep(1000);
