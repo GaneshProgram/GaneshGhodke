@@ -7,6 +7,7 @@ public class TC1 {
 	
 	public TC1() {
 	System.setProperty("webdriver.chrome.driver", "D:\\ProgrammingProject\\Java\\SelP\\chromedriver.exe");
+	
      driver =new ChromeDriver();
 	}
   @Test
